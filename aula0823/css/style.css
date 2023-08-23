@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+#titulo {
+    color: rgba(28, 119, 0, 0.83);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+span {
+    text-align: center;
+}
+
+.teste h2{
+    background-image: url('../img/luigi_slap_ass.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 195px;
+    background-size: cover;
+    border: 2px solid brown;
+    text-align: center;
+}
