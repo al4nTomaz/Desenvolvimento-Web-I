@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: linen;
+    text-align: center;
+    padding: 10px;
+}
+
 nav ul {
     list-style-type: none;
+    margin: 10px;
 }
 
 nav ul li {
     display: inline-block;
+    margin-right: 10px;
 }
 
 nav ul li a {
@@ -18,11 +33,16 @@ img {
     height: 370px;
 }
 
-* {
-    font-family: 'Open Sans', sans-serif;
+h1 {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
 }
 
 .banner {
+    margin: 10px;
     background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVC7vg9iFcqfl344ixbspK0iG2e5FWu1O2VpdHZf5t1j15ohO_FnuraPdKnYj4mjqjHnkkBl2Me5aNqqYbkFh_yZ2LRoKLk7fv42gSFoLihEk01nk7iNH_K2bWlIIJzFZ8TbmAg7cbrEpOvqXFHqduzTItfU7aWmeQmwqV96YgyChwdUlzFQaWzjhvRhU1/s1800/super-mario-bros-wonder.jpg"); 
     background-repeat: no-repeat;
     background-position: center;
@@ -30,29 +50,26 @@ img {
     background-size: cover;
     border: 2px solid brown; 
     text-align: center;
-    
 }
 
-body{
-    background-color: linen;
-    text-align: center;
-}
+
 
 .secao-temp{
-    border-top: 15px solid white;
+    padding: 10px;
+    border-top: 5px solid white;
     text-align: center;
     text-align: left;
 }
 
 .secao-botao{
-    /* text-decoration: none; */
     color: coral;
 }
 
 #secao4 {
-    border-bottom: 15px solid white;
+    border-bottom: 5px solid white;
 }
 
 .secao-descricao{
     text-align: left;
+    padding-top: 20px;
 }
