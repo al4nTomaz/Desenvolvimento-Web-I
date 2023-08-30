@@ -37,9 +37,9 @@ h1 {
     margin: 10px;
 }
 
-p {
+/* p {
     margin: 10px;
-}
+} */
 
 .banner {
     margin: 10px;
@@ -49,27 +49,37 @@ p {
     height: 195px;
     background-size: cover;
     border: 2px solid brown; 
+    border-radius: 30px;
     text-align: center;
 }
 
-
-
 .secao-temp{
     padding: 10px;
-    border-top: 5px solid white;
+    margin: 10px;
+    border: 8px solid white;
+    border-radius: 30px;
     text-align: center;
     text-align: left;
+}
+
+.secao-temp img{
+    padding-top: 10px;
+}
+
+.secao-subtitulo {
+    padding-top: 10px;
+}
+
+.secao-descricao{
+    margin: 20px 0px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
 }
 
 .secao-botao{
     color: coral;
+    margin: 10px 0px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
 }
 
-#secao4 {
-    border-bottom: 5px solid white;
-}
-
-.secao-descricao{
-    text-align: left;
-    padding-top: 20px;
-}

@@ -1,0 +1,20 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: grey;
+}
+
+.box1 {
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: orange;
+    position: fixed;
+    right: 0px;
+}
+
+.box3 {
+    position: absolute;
+}
