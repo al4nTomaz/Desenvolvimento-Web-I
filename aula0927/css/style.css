@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+
+}
+
+textarea{
+    min-height: 150px;
+    resize: none;
+    outline: none;
+}
+
+.container-botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-botoes input{
+    width: 100px;
+    height: 35px;
+    background-color: #ee74e1;
+    border: none;
+    cursor: pointer;
+}
+
+.container-botoes input:hover{
+    background-color: #b350a9;
+    
+}

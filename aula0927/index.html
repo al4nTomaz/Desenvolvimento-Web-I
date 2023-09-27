@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>CADASTRO DEVS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa maxime voluptates fuga deserunt a error quas
+            autem id optio, consequuntur qui doloribus? Reiciendis libero quas alias a inventore odit enim!</p>
+    </header>
+    <main>
+        <form action="" method="post">
+            <h2>Formulário para Desenvolvedores</h2>
+            <div class="container-form">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                        <label for="nome">Nome: *</label>
+                        <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email: *</label>
+                        <input type="email" name="email" id="email" value="Informe seu email">
+                    </div>
+
+                    <div>
+                        <label for="whats">Whats: *</label>
+                        <input type="text" name="whats" id="whats" value="Informe seu whats">
+                    </div>
+
+                    <div>
+                        <label for="endereco">Endereço: *</label>
+                        <input type="text" name="endereco" id="endereco" value="Informe seu endereco">
+                    </div>
+
+                    <div>
+                        <label for="data-nasc">Data Nascimento: *</label>
+                        <input type="date" name="data-nasc" id="data-nasc" value="dd/mm/aaaa">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dados Proficionais</legend>
+                    <div>
+                        <label for="nivel">Informe o nível de experiencia : *</label>
+                        <select name="nivel" id="nivel"></select>
+                    </div>
+
+                    <div>
+                        <p>Informe as linguagens de programação que você trabalha:</p>
+                        <div class="container-checkbox">
+                            <div>
+                                <input type="checkbox" name="linguagens" id="html" value="html" />
+                                <label for="html">HTML</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="linguagens" id="css" value="css" />
+                                <label for="css">CSS</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="linguagens" id="js" value="js" />
+                                <label for="js">Javascript</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="linguagens" id="php" value="php" />
+                                <label for="php">PHP</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="linguagens" id="java" value="java" />
+                                <label for="java">Java</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="messagem"> Nos conte um pouco sobre você...</label>
+                        <textarea name="mensagem" id="mensagem"></textarea>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="container-botoes">
+                <input type="reset" value="Limpar"></input>
+                <input type="submit"></input>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
