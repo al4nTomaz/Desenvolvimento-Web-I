@@ -1,0 +1,42 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+*{
+    font-size: 18px;
+}
+
+header{
+    height: 10vh;
+}
+
+.navbar {
+    background-color: yellow;   
+}
+
+.nav-link {
+    background-color: red;
+    color: white;
+}
+
+.carousel-inner{
+    height: 90vh;
+}
+
+.icon{
+    font-size: 2rem;
+    color: aqua;
+}
+
+.icon:hover{
+    color: greenyellow;
+}
+
+@media screen and (max-width: 768px){
+    header{
+        height: 100%;
+    }
+
+    .carousel-inner{
+        height: 100%;
+    }
+}
+
